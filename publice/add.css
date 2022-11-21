@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Fragment+Mono&family=Roboto+Mono:wght@100&display=swap');
+
+.form
+{
+  position: absolute;
+  top:300px;
+  left:700px;
+}
+#btn
+{
+  position: relative;
+  left:10px;
+  top:0.75px;
+  background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+
+body
+{
+  background-color:white;
+}
+#map
+{
+  position: absolute;
+  top:130px;
+  left:150px;
+  height:400px;
+  width:450px;
+}
+#q1
+{
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  left:1100px;
+  top:150px;
+}
+#q2
+{
+  position: absolute;
+  left:1100px;
+  top:240px;
+  font-family: 'Fragment Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+}
+#quote
+{
+  height:200px;
+  width:250px;
+}
+#calendar
+{
+  position: absolute;
+  left:1150px;
+  top:340px;
+  height:50px;
+  width:50px;
+}
+#rupee
+{
+  position: absolute;
+  left:1270px;
+  top:340px;
+  height:50px;
+  width:50px;
+}
+#insurance
+{
+  position: absolute;
+  left:1380px;
+  top:340px;
+  height:50px;
+  width:50px;
+}
+#sc
+{
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Fragment Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  left:1142px;
+  top:380px;
+
+}
+#fr
+{
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Fragment Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  left:1250px;
+  top:380px;
+
+}
+#sa
+{
+  font-family: 'DM Sans', sans-serif;
+  font-family: 'Fragment Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  left:1385px;
+  top:380px;
+
+}
