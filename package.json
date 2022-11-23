@@ -6,13 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "heroku-postbuild": "npm run build"
+
   },
   "author": "Kaushal",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "mysql": "^2.18.1",
-    "node":"16.16.0"
+    "node": "v16.16.0"
   }
 }
