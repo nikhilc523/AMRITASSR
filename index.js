@@ -13,7 +13,7 @@ var conn=mysql.createConnection({host:"thecommute.mysql.database.azure.com", use
 app.listen(port);
 conn.connect(function(err){
   if(err)throw err;
-  console.log("connected");
+  console.log("connected succcessfulllyyyyy!!!!");
 })
 app.get('/',function(req,res){
 res.sendFile(__dirname+'/publicee/index.html')
