@@ -18,3 +18,16 @@ conn.connect(function(err){
 app.get('/',function(req,res){
 res.sendFile(__dirname+'/publicee/index.html')
 })
+app.post('/find.html',function(req,res){
+  var desti = req.body.destination;
+  var sour = req.body.source;
+  var date = req.body.birthday;
+    var sql = "INSERT INTO ridesharing (Source,Destination,Date) VALUES('"+desti+"','"+sour+"','"+date+"')";
+    conn.query(sql,function(error,result){
+      if(error) throw error;
+      console.log("connected");
+      res.send("Ride added Successfully");
+
+    })
+
+  })
