@@ -28,7 +28,7 @@ app.post('/find.html',function(req,res){
     conn.query(sql,function(error,result){
       if(error) throw error;
       console.log("connected");
-      res.sendFile('success.html');
+      res.send("ride added succcessfulllyyyyy");
 
     })
 
