@@ -40,17 +40,6 @@ app.post('/add.html',(req,res)=>{
       res.sendFile(__dirname+'/public/success.html');
     })
 })
-app.get('/view',(req,res)=>{
-    var sql = "SELECT * FROM rides";
-    conn.query(sql,function(error,result){
-        if(error){
-        res.sendFile(__dirname+'/public/failure.html')
-        throw error;
-        } 
-        console.log("connected");
-        res.send(result);
-    })
-})
 app.post('/find.html',(req,res)=>{
     var source = req.body.source;
     var destination = req.body.destination;
