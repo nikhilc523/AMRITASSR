@@ -11,9 +11,9 @@ app.use(express.static('public'));
 app.use(express.static('publice'));
 app.use(express.static('publicee'));
 var conn=mysql.createConnection({
-    host:"thecommute.mysql.database.azure.com", 
-    user:"amritassr", 
-    password:"Kaushal@2003", 
+    host:"thecommute.mysql.database.azure.com",
+    user:"amritassr",
+    password:"Kaushal@2003",
     database:"carstats", port:3306
 });
 
@@ -35,14 +35,14 @@ app.post('/add.html',(req,res)=>{
       if(error){
         res.sendFile(__dirname+'/public/failure.html')
         throw error;
-      } 
+      }
       console.log("connected");
-<<<<<<< HEAD
+
       res.send("ride added succcessfulllyyyyy");
 
-=======
+
       res.sendFile(__dirname+'/public/success.html');
->>>>>>> 382011bf7d47e5cda8ea575c83b51ba82b3636c4
+
     })
 })
 app.post('/find.html',(req,res)=>{
@@ -68,7 +68,7 @@ app.post('/find.html',(req,res)=>{
     })
 })
 
-<<<<<<< HEAD
+
   })
  app.get('publice\Add.html',function(req,res){
  var source = req.body.from;
@@ -83,8 +83,7 @@ app.post('/find.html',(req,res)=>{
 
 
  })
-=======
+
 app.listen(port,()=>{
     console.log("server started at "+port);
 });
->>>>>>> 382011bf7d47e5cda8ea575c83b51ba82b3636c4
