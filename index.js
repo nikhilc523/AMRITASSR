@@ -33,3 +33,16 @@ app.post('/find.html',function(req,res){
     })
 
   })
+ app.get('publice\Add.html',function(req,res){
+ var source = req.body.from;
+ var desti = req.body.to;
+ var date = req.body.birthday;
+ console.log(source);
+ console.log(desti)
+
+
+
+
+
+
+ })

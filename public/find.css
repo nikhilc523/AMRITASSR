@@ -5,7 +5,10 @@
   top:300px;
   left:700px;
 }
-
+body
+{
+  width: 100%;
+}
 #btn
 {
   position: relative;
@@ -27,13 +30,15 @@
   font-family: 'Fragment Mono', monospace;
   font-family: 'Jost', sans-serif;
   font-family: 'Roboto Mono', monospace;
+  
 }
 
 #motto
 {
   position: relative;
-  left:1100px;
-  top:4px;
+  display: inline-block;
+  left:1050px;
+  top:2px;
   font-family: 'DM Sans', sans-serif;
   font-family: 'Fragment Mono', monospace;
   font-family: 'Jost', sans-serif;
@@ -43,6 +48,7 @@
 #video
 {
   position: relative;
-  left:1100px;
+  left:1050px;
   top:70px;
+  display:block;
 }
